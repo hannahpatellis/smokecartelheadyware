@@ -1,0 +1,32 @@
+/* Universal */
+body{
+    font-family:"Helvetica", sans-serif;
+}
+/* Header */
+a.navbar-brand{
+    padding-top:5px;
+}
+/* Home Module */
+div.overall-stage{
+    text-align:center;
+    margin-top:80px;
+    padding:0px 30px 0px 30px;
+    margin-bottom:30px;
+}
+div#overall-menu{}
+div.overall-menu-item{
+    text-align:left;
+    float:left;
+    height:150px;
+    width:200px;
+    margin-right:20px;
+    padding:20px 20px 20px 20px;
+    border:2px solid #000;
+}
+div.overall-menu-item:last-child{
+    margin-right:0px;
+}
+div.overall-menu-item:hover{
+    background:#000;
+    color:#FFF;
+}

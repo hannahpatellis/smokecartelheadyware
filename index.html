@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>Headyware</title>
+	<link rel="stylesheet" href="static/css/normalize.css" />
+	<link rel="stylesheet" href="static/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="static/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="static/css/custom.overall.css" />
+	<script>
+		const { remote } = require('electron')
+		window.$ = window.jQuery = require('jquery')
+	</script>
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"><img src="static/img/sc_navbar-brand.png" /></a>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><strong>Home</strong> <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Shipping</a></li>
+							<li><a href="#">Crew</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#">Help</a></li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">You are signed in as <strong>Hannah</strong> <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Sign out</a></li>
+							<li><a href="#">See my user information</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#">Slack</a></li>
+							<li><a href="#">E-mail</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container-fluid overall-stage">
+		<div class="row">
+			<img src="static/img/sc_logo_stacked_black.png" height="200px" />
+			<h3>Welcome to Headyware! Please select a module</h3>
+		</div>
+		<div class="row">
+			<div id="overall-menu">
+				<div class="overall-menu-item">
+					<i class="fa fa-heart"></i>
+					<h2>Shipping</h2>
+				</div>
+				<div class="overall-menu-item">
+					<i class="fa fa-heart"></i>
+					<h2>Crew</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+<script src="static/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+
+</script>
+</html>
